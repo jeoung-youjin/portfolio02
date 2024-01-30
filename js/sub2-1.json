@@ -1,0 +1,102 @@
+{
+    "프로모션":[
+      {
+        "img":"/portfolio02/img/all-event-list01.jpg",
+        "category":"프로모션",
+        "tit":"1월 이달의 맛, 인스타그램에 사진을 올려주세요!",
+        "date":"2024-01-01 ~ 2024-01-26"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list02.png",
+        "category":"온라인이벤트",
+        "tit":"배스킨라빈스 신년 맞이 행운 부적을 나눠주세요!",
+        "date":"2024-01-05 ~ 2024-01-28"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list03.jpg",
+        "category":"프로모션",
+        "tit":"1월 배라데이 럭키드로우 추가 혜택! ",
+        "date":"2024-01-04 ~ 2024-01-10"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list04.jpg",
+        "category":"프로모션",
+        "tit":"X-MAS 케이크 구매 시 허그미 조안 테디베어 11,900원!",
+        "date":"2023-12-15 ~ 소진 시 까지"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list05.jpg",
+        "category":"프로모션",
+        "tit":"X-MAS 케이크 구매 시 하트베어 테디백 8,900원! ",
+        "date":"2023-12-08 ~ 소진 시 까지"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list06.jpg",
+        "category":"프로모션",
+        "tit":"쿼터 이상 구매 시 원더랜드 스노우볼 매장판매 9,900원!",
+        "date":"2023-12-01 ~ 소진 시 까지"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list07.png",
+        "category":"프로모션",
+        "tit":"아이스크림 스쿱퍼, 해피앱 스캔 시 3천원 OFF!",
+        "date":"2023-09-04 ~ 소진 시 까지"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list08.png",
+        "category":"프로모션",
+        "tit":"모슈 텀블러 머그 MD 구매 시 배라 3종 쿠폰 증정",
+        "date":"2023-07-03 ~ 소진 시 까지"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list09.jpg",
+        "category":"프로모션",
+        "tit":"아이스크림 보냉 컨테이너 매장판매 시작!",
+        "date":"2023-07-05 ~ 소진 시 까지"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list10.png",
+        "category":"프로모션",
+        "tit":"SKT 우주패스, 배스킨라빈스 구독 시 7천원 OFF!",
+        "date":"상시 운영"
+      },
+      {
+        "img":"/portfolio02/img/all-event-list11.png",
+        "category":"프로모션",
+        "tit":"1회용 컵 사용 줄이기 안내 ",
+        "date":"상시 운영"
+      }
+    ],
+    "제휴혜택":[
+      {
+        "img":"/portfolio02/img/affiliate-list01.png",
+        "category":"제휴혜택",
+        "tit":"이제 배라에서도 애플페이 ",
+        "date":"상시 운영"
+      },
+      {
+        "img":"/portfolio02/img/affiliate-list02.png",
+        "category":"제휴혜택",
+        "tit":"해피앱에서 5% 적립 놓치지 마세요! ",
+        "date":"상시 운영"
+      },
+      {
+        "img":"/portfolio02/img/affiliate-list03.png",
+        "category":"제휴혜택",
+        "tit":"2024 KT 멤버십 배스킨라빈스 특별한 제휴 혜택!",
+        "date":"상시 운영"
+      },
+      {
+        "img":"/portfolio02/img/affiliate-list04.jpg",
+        "category":"제휴혜택",
+        "tit":"T멤버십 회원 대상 싱글레귤러 최대 50%할인 또는 적립",
+        "date":"상시 운영"
+      },
+      {
+        "img":"/portfolio02/img/affiliate-list05.png",
+        "category":"제휴혜택",
+        "tit":"현대카드 M포인트 50% 사용 ",
+        "date":"상시 운영"
+      }
+    ]
+}
