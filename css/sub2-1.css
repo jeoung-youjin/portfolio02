@@ -1,0 +1,135 @@
+@charset "UTF-8";
+.sub-menu{color: #f986bd; font-weight: 600;}
+.sub-menu .inner{
+  display: flex; justify-content: center;
+  padding: 80px 0;
+}
+.sub-menu .inner a{
+  padding: 5px 22px;
+  position: relative;
+}
+.sub-menu .inner a::before {
+  content: "";
+  width: 1px; height: 16px;
+  background-color: #fcc2de;
+  transform: translateY(-50%);
+  position: absolute; top: 50%; left: 0;
+}
+.sub-menu .inner li:nth-child(1) a::before{display: none;}
+.sub-page{
+  display: flex; justify-content: center; flex-direction: column; align-items: center;
+  margin-bottom: 90px;
+  color: #f986bd;
+}
+.sub-page .sub-page-tit{font-size: 90px; font-weight: 700;}
+.sub-page .sub-page-des{
+  display: block;
+  width: 500px; 
+  margin: 50px 0;
+  font-size: 20px; font-weight: 600; text-align: center;
+}
+.event-list .event-tab-button{
+  display: flex; justify-content: center; 
+  width: 100%;
+  border-bottom: 1px solid  #d4d4d4;
+  font-size: 18px ; font-weight: 700;
+}
+.event-list .event-tab-button p{
+  display: flex; justify-content: center; align-items: center;
+  width: 200px; height: 60px;
+  border: 1px solid  #d4d4d4; border-bottom: transparent; border-radius: 10px 10px 0 0;
+  color: #b1b1b1;
+}
+.event-list .event-tab-button p.on{color: #000; background-color: #fff;}
+.event-list .event-tab-box {padding-top: 60px;}
+.event-list .event-tab-box ul{display: none; flex-wrap: wrap; justify-content: space-between;}
+.event-list .event-tab-box ul.on {display: flex;}
+.event-list .event-tab-box ul li{
+  display: block;
+  width: calc( ( 100vw - 150px ) / 2 );
+}
+.event-list .event-tab-box ul li a{
+  display: flex;
+  margin: 25px 0;
+  border: 1px solid #d4cdc0; border-radius: 12px;
+}
+.event-list .event-tab-box ul .event-img{
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.event-list .event-tab-box ul .event-img img{
+  display: block;
+  width: 230px; height: 230px;
+}
+.event-list .event-tab-box ul .event-img p{
+  display: flex; justify-content: center; align-items: center;
+  width: 70px; height: 70px;
+  padding-top: 20px;
+  border-radius: 35px;
+  font-weight: 600; color: #fff;
+  background-color: #ff7a95;
+  position: absolute; left: 60%; top: -11%;
+}
+.event-list .event-tab-box ul .event-des{
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 0  30px;
+}
+.event-list .event-tab-box ul .event-des span{
+  padding-bottom: 15px;
+  font-size: 15px; color: #65c8ff;
+}
+.event-list .event-tab-box ul .event-des p{
+  width: 300px;
+  font-size: 22px; font-weight: 600;
+}
+.event-list .event-tab-box ul .event-des em{
+  margin-top: 15px;
+  font-size: 15px; color: #666;
+}
+/***************
+max-width:1280px
+****************/
+/* 1280~640 */
+@media all and (max-width:1280px) {
+  .sub-page .sub-page-tit{font-size: 60px;  font-weight: 700;}
+  .event-list .event-tab-button p{width: 150px;}
+  .event-list .event-tab-box ul {flex-direction: column; align-items: center;}
+  .event-list .event-tab-box ul li{
+    display: block;
+    width: calc( 100vw - 100px);
+  }
+  .event-list .event-tab-box ul .event-img img{ width: 200px; height: 200px;}
+  .event-list .event-tab-box ul .event-des{
+    width:calc( 100% - 150px );
+    padding: 0  10px;
+  }
+  .event-list .event-tab-box ul .event-des p{
+    width: calc( 100% - 70px );
+    font-size: 18px; font-weight: 600;
+  }
+}
+/***************
+max-width:640px
+****************/
+/* 640 ~ 360 */
+@media all and (max-width:640px) {
+  .sub-menu .inner{flex-wrap: wrap; justify-content: flex-start;}
+  .sub-menu .inner a{padding: 5px 10px;}
+  .sub-page .sub-page-tit{font-size: 48px;}
+  .sub-page .sub-page-des{
+    display: block;
+    width: calc( 100% - 30px );
+    font-size: 18px;
+  }
+  .event-list .event-tab-button{font-size: 15px;}
+  .event-list .event-tab-button p{width: calc( ( 100% - 10px ) / 3 ); height: 60px;}
+  .event-list .event-tab-box{padding-bottom: 80px;}
+  .event-list .event-tab-box ul li{width: calc( ( 100vw - 30px ) );}
+  .event-list .event-tab-box ul .event-img img{width: 100px; height: 100px;}
+  .event-list .event-tab-box ul .event-des{padding: 0 0 0 20px;}
+  .event-list .event-tab-box ul .event-des p{
+    width: calc( 100% );
+    font-size: 18px; 
+  }
+}

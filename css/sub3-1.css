@@ -1,0 +1,84 @@
+@charset "UTF-8";
+.sub-menu{color: #f986bd; font-weight: 600;}
+.sub-menu .inner{
+  display: flex; justify-content: center;
+  padding: 80px 0;
+}
+.sub-menu .inner a{
+  padding: 5px 22px;
+  position: relative;
+}
+.sub-menu .inner a::before {
+  content: "";
+  width: 1px; height: 16px;
+  background-color: #fcc2de;
+  transform: translateY(-50%);
+  position: absolute; top: 50%; left: 0;
+}
+.sub-menu .inner li:nth-child(1) a::before{display: none;}
+.sub-page{
+  display: flex; justify-content: center; flex-direction: column; align-items: center;
+  margin-bottom: 90px;
+  color: #f986bd;
+}
+.sub-page .sub-page-tit{font-size: 90px; font-weight: 700;}
+.sub-page .sub-page-des{
+  display: block;
+  width: 500px; 
+  margin: 50px 0;
+  font-size: 20px; font-weight: 600; text-align: center;
+}
+
+/* main-history - s*/
+.brand-story{display: block; width: 100%;}
+.brand-story-history{
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+}
+.brand-story-history li{
+  display: flex; justify-content: space-between;
+  margin: 30px 0;
+}
+.brand-story-history  li::before{
+  content: "";
+  display: block;
+  width: 400px; height: 400px;
+}
+.brand-story-history li:nth-child(1)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img01.jpg);}
+.brand-story-history li:nth-child(2)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img02.jpg);}
+.brand-story-history li:nth-child(3)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img03.jpg);}
+.brand-story-history li:nth-child(4)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img04.jpg);}
+.brand-story-history li:nth-child(5)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img05.jpg);}
+.brand-story-history li:nth-child(6)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img06.jpg);}
+.brand-story-history li:nth-child(7)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img07.jpg);}
+.brand-story-history li:nth-child(8)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img08.jpg);}
+.brand-story-history li:nth-child(9)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img09.jpg);}
+.brand-story-history li:nth-child(10)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img10.jpg);}
+.brand-story-history li:nth-child(11)::before{background: center / contain no-repeat url(/portfolio02/img/logo-box-img11.jpg);}
+.brand-story-history .text-box .history-tit{
+  display: block;
+  margin-bottom: 25px;
+  font-size: 25px; color: #e66787; font-weight: 600;
+}
+.brand-story-history .text-box .history-des{
+  display: block;
+  width: 480px;
+  font-size: 15px; font-weight: 600; line-height: 25px; color: #999;
+}
+.brand-story-history .logo-box{}
+.brand-story-history .logo-box button{}
+.brand-story-history .logo-box button span{}
+.brand-story-history .logo-box .logo-box-img{
+  display: block;
+  width: 123px; height: 123px;
+  border-radius: 50%; border: 3px solid #e66787;
+  background: center no-repeat url(/portfolio02/img/logo-box-button.png); background-color: #fff;
+}
+.brand-story-history .logo-box .logo-box-year{
+  display: block;
+  width: 123px; height: 123px;
+  color: #fff; font-size: 27px; font-weight: 600; text-align: center; line-height: 120px;
+  background: center / contain no-repeat url(/portfolio02/img/bg_logo_story_year.png);
+}
+/* main-history - e*/
